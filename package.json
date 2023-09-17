@@ -1,0 +1,49 @@
+{
+  "name": "otus-js-basic-korogod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "lint": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/skorogod/otus-js-basic-korogod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skorogod/otus-js-basic-korogod/issues"
+  },
+  "homepage": "https://github.com/skorogod/otus-js-basic-korogod#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^29.6.4",
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.0",
+    "jest": "^29.6.4",
+    "jest-dom": "^4.0.0",
+    "jest-environment-jsdom": "^29.6.4",
+    "jsdom": "^22.1.0",
+    "lint-staged": "^14.0.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "3.0.3"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,css}": "prettier --write"
+  },
+  "_id": "otus-js-basic-korogod@1.0.0"
+}
